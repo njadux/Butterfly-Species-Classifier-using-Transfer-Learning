@@ -68,9 +68,6 @@ gr.Interface(fn=predict_butterfly, inputs=gr.Image(type="pil"), outputs="text").
 
 The model achieves good accuracy in classifying butterfly species, with visualized training and validation accuracy/loss plots. You can explore the results in the TensorBoard interface.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
